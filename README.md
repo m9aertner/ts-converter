@@ -1,13 +1,11 @@
 ![Timestamp Converter GMT Icon](https://raw.githubusercontent.com/m9aertner/ts-converter/master/src/icons/icon_128x128.png)
 
 # Timestamp Converter GMT
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/hmneiieiipdcnffddenpfdbocjndjlni.svg?maxAge=2592000)](https://chrome.google.com/webstore/detail/timestamp-converter/hmneiieiipdcnffddenpfdbocjndjlni) [![Chrome Web Store](https://img.shields.io/chrome-web-store/d/hmneiieiipdcnffddenpfdbocjndjlni.svg?maxAge=2592000?style=plastic)](https://chrome.google.com/webstore/detail/timestamp-converter/hmneiieiipdcnffddenpfdbocjndjlni) [![license](https://img.shields.io/github/license/m9aertner/ts-converter.svg?maxAge=2592000)]()
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/fdlnehkblalcbdmemcjdljcbhojaplnp.svg?maxAge=2592000)](https://chrome.google.com/webstore/detail/timestamp-converter/fdlnehkblalcbdmemcjdljcbhojaplnp) [![Chrome Web Store](https://img.shields.io/chrome-web-store/d/fdlnehkblalcbdmemcjdljcbhojaplnp.svg?maxAge=2592000?style=plastic)](https://chrome.google.com/webstore/detail/timestamp-converter/fdlnehkblalcbdmemcjdljcbhojaplnp) [![license](https://img.shields.io/github/license/m9aertner/ts-converter.svg?maxAge=2592000)]()
 
 ### Chrome Extension to convert Epoch timestamps to GMT ISO format.
 
-[![Chrome Web Store](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/timestamp-converter/hmneiieiipdcnffddenpfdbocjndjlni)
-
-This is a fork of https://github.com/prajwalrao/ts-converter .
+[![Chrome Web Store](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/timestamp-converter/fdlnehkblalcbdmemcjdljcbhojaplnp)
 
 ****
 ### Differences in this Fork
@@ -18,14 +16,18 @@ The original utility invariably uses the browser local time zone. For my backend
 
 Example: The original extension shows for epoch timestamp 1432075898000 the tooltip as "Tue May 19 2015 15:51:38 GMT-0700 (PDT)". With this variant of the extension installed, the same number shows up as "2015-05-19T22:51:38.000Z". Of course, it is the very same point in time, just expressed in a different time zone: GMT instead of PDT, and in ISO 8601 format.
 
-#### Selectable Tooltip
+#### Clickable Tooltip
 
-Also, the "tooltip" content can now be marked with the mouse, then copied to the clipboard. In the original, the tooltip closes on each mouse down, making getting to the decoded timestamp unduly hard.
+The tooltip content can now be copied to the clipboard, by clicking it with the mouse. In the original, the tooltip closes on each mouse down, making getting to the decoded timestamp unduly hard.
+
+The icon rotates as a visual confirmation that the copy operation was successful. Check your browser settings if that does not work, your security settings may impose limits on clipboard interaction.
+
+Click anywhere on the page outside of the tooltip to make the tooltip go away.
 
 ****
 ### Install
 
-Install the [Chrome Extension from here](https://chrome.google.com/webstore/detail/timestamp-converter/hmneiieiipdcnffddenpfdbocjndjlni)
+Install the [Chrome Extension from here](https://chrome.google.com/webstore/detail/timestamp-converter/fdlnehkblalcbdmemcjdljcbhojaplnp)
 
 ### Some Timestamps to try out
 
@@ -33,7 +35,7 @@ Install the [Chrome Extension from here](https://chrome.google.com/webstore/deta
 
 | Epoch Timestamp | UTC ISO 8601 Timestamp   |
 | --------------- | ------------------------ |
-| 1461086790000   | 2016-04-19T17:26:30.000Z |         
+| 1461086790000   | 2016-04-19T17:26:30.000Z |
 | 1461086790      | 2016-04-19T17:26:30.000Z |
 | 1482652799      | 2016-12-25T07:59:59.000Z |
 | 1482479999      | 2016-12-23T07:59:59.000Z |
