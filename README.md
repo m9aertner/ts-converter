@@ -1,11 +1,11 @@
 ![Timestamp Converter GMT Icon](https://raw.githubusercontent.com/m9aertner/ts-converter/master/src/icons/icon_128x128.png)
 
 # Timestamp Converter GMT
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/fdlnehkblalcbdmemcjdljcbhojaplnp.svg?maxAge=2592000)](https://chrome.google.com/webstore/detail/timestamp-converter/fdlnehkblalcbdmemcjdljcbhojaplnp) [![Chrome Web Store](https://img.shields.io/chrome-web-store/d/fdlnehkblalcbdmemcjdljcbhojaplnp.svg?maxAge=2592000?style=plastic)](https://chrome.google.com/webstore/detail/timestamp-converter/fdlnehkblalcbdmemcjdljcbhojaplnp) [![license](https://img.shields.io/github/license/m9aertner/ts-converter.svg?maxAge=2592000)]()
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/kbmkcbkddchlabbhbpjdenhakjnjkakd.svg?maxAge=2592000)](https://chrome.google.com/webstore/detail/timestamp-converter/kbmkcbkddchlabbhbpjdenhakjnjkakd) [![Chrome Web Store](https://img.shields.io/chrome-web-store/d/kbmkcbkddchlabbhbpjdenhakjnjkakd.svg?maxAge=2592000?style=plastic)](https://chrome.google.com/webstore/detail/timestamp-converter/kbmkcbkddchlabbhbpjdenhakjnjkakd) [![license](https://img.shields.io/github/license/m9aertner/ts-converter.svg?maxAge=2592000)]()
 
 ### Chrome Extension to convert Epoch timestamps to GMT ISO format.
 
-[![Chrome Web Store](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/timestamp-converter/fdlnehkblalcbdmemcjdljcbhojaplnp)
+[![Chrome Web Store](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/timestamp-converter/kbmkcbkddchlabbhbpjdenhakjnjkakd)
 
 ****
 ### Differences in this Fork
@@ -27,7 +27,7 @@ Click anywhere on the page outside of the tooltip to make the tooltip go away.
 ****
 ### Install
 
-Install the [Chrome Extension from here](https://chrome.google.com/webstore/detail/timestamp-converter/fdlnehkblalcbdmemcjdljcbhojaplnp)
+Install the [Chrome Extension from here](https://chrome.google.com/webstore/detail/timestamp-converter/kbmkcbkddchlabbhbpjdenhakjnjkakd)
 
 ### Some Timestamps to try out
 

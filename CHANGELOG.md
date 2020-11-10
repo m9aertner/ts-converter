@@ -1,3 +1,6 @@
+### v1.3 (2020-11-03)
+- Published to [Chrome Webstore](https://chrome.google.com/webstore/detail/timestamp-converter/kbmkcbkddchlabbhbpjdenhakjnjkakd)
+
 ### v1.3 (2020-11-01)
 - Changed display from local time zone to GMT and ISO format
 - Support copy-to-clipboard
